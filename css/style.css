@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body {
+  margin: 0;
+  font-family: Arial,sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nambar{
+    display:    flex;
+    align-items: right;
+    justify-content: right;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+}
+.bln{
+    padding: 3px 3px;
+    margin: 7px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'algerian', sans-serif;
+
+}
+.navin{
+    padding: 9px 9px;
+    margin: 7px 10px;
+
+    border-radius: 8px;
+    font-size: 10px;
+    background: none;
+    color: white;
+    cursor: pointer;
+
+}
+.mansi{
+    padding: 3px 3px;
+    margin: 7px 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'rupee foradian', sans-serif;
+}
+.bpn{
+    size:5px;
+    padding: 3px 3px;
+    margin: 4px 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 15px;
+    background: none;
+    color: black;
+    cursor: pointer;
+    font-family: 'algerian', sans-serif;
+}
+.logo img{
+    width: 90%;
+    border: 3px solid white;
+    border-radius: 150px;
+}
+.navbar{
+    display:    flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    color: white;
+}
+.nav-list{
+    width:  70%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-list li{
+    color: white;
+    list-style: none;
+    padding: 25px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.nav-list li a:hover{
+    color:grey;
+    
+}
+
+.rightnav{
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+#search{
+    padding: 25px;
+    font: 17px;
+    border: 2px solid grey;
+    border-radius: 150px;
+}
+.background{
+    background:rgba(0, 0, 0, 0.1) url(OIP.jpg);
+    background-blend-mode: cover;
+}
+.firstsection{
+    height: 100vh;
+}
+
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.firsthalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.secondhalf{
+    width: 80%;
+}
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 250px;
+    display: block;
+    margin: auto;
+    size: 50cm;
+    background:rgba(0, 0, 0, 1) url(oip.jpg);
+}
+.text-big{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+
+}
+.text-small{
+    font-size: 18px;
+    color: white;
+
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'ubuntu', sans-serif;
+
+}
+
+.btn-sm{
+    padding: 3px 10px
+    vertical-align: middle;
+}
+
+.btn-dark{
+    color: white;
+    border:2px solid white
+    text:solid white
+    padding:3px 10px;
+
+}
+.tell{
+    color: grey;
+
+}
+.secright{
+    height: 500px;
+    display: flex;
+    align-items: right;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    padding: 333px;
+
+}
+
+.sectiontag{
+    font-size: 15px;
+    color: white;
+    color: white;
+    padding: 16px 0;
+
+}
+.paras{
+    padding: 20px 65px;
+
+}
+.secleft{
+    flex-direction: row-reverse;
+
+}
+.secleft img{
+    padding: 0px  40px;
+}
+
+.font1{
+    font-family: 'ubuntu', sans-serif;
+}
+.font2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thumbnail2 img{
+    width:250px;
+    height:250px;
+}
+.thumbnail3 img{
+    width:250px;
+    height:250px;
+}
+.contact{
+    background-color: rgb(241, 240, 236);
+    height:100vh;
+}
+.text-center{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'ubuntu', sans-serif;
+    font: bold;
+    font: italic;
+    font-size: 35px;
+}
+.form{
+    max-width: 1200px;
+    margin: auto;
+}
+.form-input{
+    width: 100%;
+    font-size: 19px;
+    border:2px solid grey;
+    border-radius: 6px;
+    margin: 14px 0;
+    padding: 5px 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'ubuntu', sans-serif;
+    display:flex;
+    justify-content: center;
+}
+.background1{
+    background:rgb(0, 0, 0) url(img/oip.jpg);
+    background-blend-mode: cover;
+    color: white;
+}
+.button{
+    text-decoration: none;
+}
+
+@media only screen and (max-width:1140px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="img.png">
+    <title>Sign up</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" href="css/temp.css">
+</head>
+<body>
+
+    <h1>Sign up</h1>
+	
+
+    <form action="process-form.php" method="post">
+
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+		
+        <label for="email-id">email id</label>
+        <input type="text" id="name" name="name">
+		
+        <label for="password">Create password</label>
+        <input type="password" id="password" name="name">        
+        
+
+        <fieldset>
+            <legend>Account type</legend>
+
+            <label>
+                <input type="radio" name="type" value="1">
+                Beta(Suggested for developers)
+            </label>
+
+            <br>
+
+            <label>
+                <input type="radio" name="type" value="2" checked>
+                Normal
+
+
+        <br>
+
+    <td><input type="submit" value="Submit" name="submit"></td>
+
+    </form>
+
+</body>
+</html>
